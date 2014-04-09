@@ -7,9 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "GCValueSlider.h"
 
 @interface ViewController ()
-
+{
+    GCSliderValueView *view;
+    IBOutlet GCValueSlider *slider;
+}
 @end
 
 @implementation ViewController
@@ -17,7 +21,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    show = YES;
+    slider.popup.fillColor = slider.tintColor;
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning

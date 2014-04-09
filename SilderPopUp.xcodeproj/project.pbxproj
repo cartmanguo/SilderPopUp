@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5ABC7BE18F516F2001FB876 /* GCValueSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ABC7BD18F516F2001FB876 /* GCValueSlider.m */; };
 		F5D2C81318F3EA4C008A6846 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D2C81218F3EA4C008A6846 /* Foundation.framework */; };
 		F5D2C81518F3EA4C008A6846 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D2C81418F3EA4C008A6846 /* CoreGraphics.framework */; };
 		F5D2C81718F3EA4C008A6846 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D2C81618F3EA4C008A6846 /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		F5D2C83418F3EA4C008A6846 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D2C81618F3EA4C008A6846 /* UIKit.framework */; };
 		F5D2C83C18F3EA4C008A6846 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5D2C83A18F3EA4C008A6846 /* InfoPlist.strings */; };
 		F5D2C83E18F3EA4C008A6846 /* SilderPopUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2C83D18F3EA4C008A6846 /* SilderPopUpTests.m */; };
+		F5D2C84918F3EAFA008A6846 /* GCSliderValueView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2C84818F3EAFA008A6846 /* GCSliderValueView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F5ABC7BC18F516F2001FB876 /* GCValueSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCValueSlider.h; sourceTree = "<group>"; };
+		F5ABC7BD18F516F2001FB876 /* GCValueSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCValueSlider.m; sourceTree = "<group>"; };
 		F5D2C80F18F3EA4C008A6846 /* SilderPopUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilderPopUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D2C81218F3EA4C008A6846 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F5D2C81418F3EA4C008A6846 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,8 @@
 		F5D2C83918F3EA4C008A6846 /* SilderPopUpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SilderPopUpTests-Info.plist"; sourceTree = "<group>"; };
 		F5D2C83B18F3EA4C008A6846 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5D2C83D18F3EA4C008A6846 /* SilderPopUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SilderPopUpTests.m; sourceTree = "<group>"; };
+		F5D2C84718F3EAFA008A6846 /* GCSliderValueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCSliderValueView.h; sourceTree = "<group>"; };
+		F5D2C84818F3EAFA008A6846 /* GCSliderValueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCSliderValueView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				F5D2C82418F3EA4C008A6846 /* Main.storyboard */,
 				F5D2C82718F3EA4C008A6846 /* ViewController.h */,
 				F5D2C82818F3EA4C008A6846 /* ViewController.m */,
+				F5D2C84718F3EAFA008A6846 /* GCSliderValueView.h */,
+				F5D2C84818F3EAFA008A6846 /* GCSliderValueView.m */,
+				F5ABC7BC18F516F2001FB876 /* GCValueSlider.h */,
+				F5ABC7BD18F516F2001FB876 /* GCValueSlider.m */,
 				F5D2C82A18F3EA4C008A6846 /* Images.xcassets */,
 				F5D2C81918F3EA4C008A6846 /* Supporting Files */,
 			);
@@ -199,6 +209,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Alpha;
 				TargetAttributes = {
+					F5D2C80E18F3EA4C008A6846 = {
+						DevelopmentTeam = HZ59NGURJ9;
+					};
 					F5D2C82F18F3EA4C008A6846 = {
 						TestTargetID = F5D2C80E18F3EA4C008A6846;
 					};
@@ -250,8 +263,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5D2C82918F3EA4C008A6846 /* ViewController.m in Sources */,
+				F5ABC7BE18F516F2001FB876 /* GCValueSlider.m in Sources */,
 				F5D2C82318F3EA4C008A6846 /* AppDelegate.m in Sources */,
 				F5D2C81F18F3EA4C008A6846 /* main.m in Sources */,
+				F5D2C84918F3EAFA008A6846 /* GCSliderValueView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +391,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SilderPopUp/SilderPopUp-Prefix.pch";
 				INFOPLIST_FILE = "SilderPopUp/SilderPopUp-Info.plist";
@@ -389,6 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SilderPopUp/SilderPopUp-Prefix.pch";
 				INFOPLIST_FILE = "SilderPopUp/SilderPopUp-Info.plist";
@@ -456,6 +473,7 @@
 				F5D2C84318F3EA4C008A6846 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5D2C84418F3EA4C008A6846 /* Build configuration list for PBXNativeTarget "SilderPopUpTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +482,7 @@
 				F5D2C84618F3EA4C008A6846 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
